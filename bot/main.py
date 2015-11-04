@@ -13,8 +13,8 @@ has_enough = []
 done_subs = deque(maxlen=200)
 
 def _login():
-	USERNAME = raw_input("Username? longhornmod\n")
-	PASSWORD = raw_input("Password hookemhorns\n")
+	USERNAME = raw_input("Username?\n")
+	PASSWORD = raw_input("Password\n")
 	print "logging in............"
 	r.login(USERNAME, PASSWORD)
 	print "welcome longhornmod"
